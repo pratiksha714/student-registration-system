@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Registration Form</h1>
+
+    <form action="insert.php" method="POST">
+
+        <div class="row">
+            <label>Enrollment Number</label>
+            <input type="text" name="enrollment_no" required>
+        </div>
+
+        <div class="row">
+            <label>Student Name</label>
+            <input type="text" name="student_name" required>
+        </div>
+
+        <div class="row">
+            <label>Contact Number</label>
+            <input type="text" name="contact_no" required>
+        </div>
+
+        <div class="row">
+            <label>Address</label>
+            <textarea name="address" required></textarea>
+        </div>
+
+        <div class="row">
+            <label>Course</label>
+
+            <select name="course" required>
+                <option value="">--Select Course--</option>
+                <option>BCA</option>
+                <option>BBA</option>
+                <option>BCS</option>
+                <option>BSc IT</option>
+                <option>MCA</option>
+                <option>MBA</option>
+            </select>
+        </div>
+
+        <div class="buttons">
+
+            <button type="submit" class="submit">
+                Submit
+            </button>
+
+            <button type="button"
+                    onclick="window.location='view.php'"
+                    class="view">
+                View
+            </button>
+
+            <button type="reset"
+                    class="update">
+                Clear
+            </button>
+
+            <button type="button"
+                    onclick="window.location='view.php'"
+                    class="delete">
+                Delete
+            </button>
+
+            <button type="button"
+                    onclick="window.close()"
+                    class="close">
+                Close
+            </button>
+
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
