@@ -2,20 +2,20 @@
 
 A CRUD-based Student Registration System developed using:
 
-HTML
-CSS
-PHP
-MySQL
-XAMPP
+* HTML
+* CSS
+* PHP
+* MySQL
+* XAMPP
 
 ## Features
 
-Add Student
-View Student Records
-Update Student Information
-Delete Student Records
-Course Selection Dropdown
-MySQL Database Connectivity
+* Add Student
+* View Student Records
+* Update Student Information
+* Delete Student Records
+* Course Selection Dropdown
+* MySQL Database Connectivity
 
 ## How to Run
 
